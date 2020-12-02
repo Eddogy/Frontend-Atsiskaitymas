@@ -1,0 +1,21 @@
+.navDesktop {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid black;
+    width: 75%;
+    margin-top: 10px;
+}
+.navDesktop p{
+    margin: 10px 10% 10px 10%;
+    font-weight: bold;
+}
+
+.navDesktop p:hover{
+    color: #008c8c;
+    cursor: pointer;
+}
+
+.active {
+    color: #008c8c;
+}
